@@ -1,0 +1,8 @@
+.bg-corpo {
+  background-image: url(../img/bg-2.png) !important;
+  height: 590px;
+}
+#teste {
+    background-color: Red;
+    _background-color: Black; // No IE o fundo ficará com a cor preta
+}

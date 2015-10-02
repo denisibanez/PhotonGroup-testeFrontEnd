@@ -1,0 +1,162 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  src: url(ÔÇÿfonts/HelveticaNeueLTStd-LtCn.otfÔÇÖ);
+}
+.topo {
+  height: 50px;
+  background-color: #fff;
+  padding-top: 10px;
+  z-index: 300;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.logo-top {
+  padding-top: 12px;
+}
+
+.nav_form {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+.nav_form input {
+  -webkit-box-shadow: inset 0 0 7px #ccc;
+  -moz-box-shadow: inset 0 0 7px #ccc;
+  box-shadow: inset 0 0 7px #ccc;
+  background: transparent;
+  width: 100%;
+}
+
+.busca {
+  padding-top: 9px;
+}
+
+.bg-corpo {
+  background-image: url(../img/bg.png);
+  height: 590px;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  filter: progid:DXImageTransform.Microsoft.blur(MakeShadow='false', PixelRadius='2',ShadowOpacity='0.75');
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+  margin-top: 50px;
+}
+
+#head, #nav {
+  background-color: rgba(245, 248, 249, 0.5);
+  height: 110px;
+  z-index: 100;
+  margin-top: 50px;
+  position: relative;
+}
+
+.anuncio {
+  height: 110px;
+  padding-top: 9px;
+}
+
+.logo-360 {
+  padding-top: 25px;
+}
+
+.resp {
+  width: 100%;
+  height: auto;
+}
+
+#nav {
+  margin-top: 0;
+  height: 45px;
+  background-color: rgba(229, 233, 233, 0.7);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+
+.sub-menu {
+  display: none;
+}
+
+a:hover + .sub-menu {
+  display: block;
+}
+
+.fonte-menu, .fonte-menu a:hover, .fonte-menu-a {
+  font-family: 'helveticaneue';
+  font-size: 22px;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+.fonte-menu-a {
+  text-decoration: none;
+}
+
+.tudo {
+  border-top: 5px solid #11b3ef;
+}
+
+.mega-menu {
+  height: 265px;
+  background-color: #fff;
+  margin-top: 7px;
+  width: auto;
+  max-width: 1920px;
+}
+
+.mega-menu-item {
+  height: 220px;
+}
+
+.article {
+  padding: 20px 0px 20px 5px;
+}
+
+.article-2 {
+  padding: 20px 0px 20px 0px;
+}
+
+.icon-plus {
+  background-color: #f4f4f3;
+  padding: 80px 50px 80px 50px;
+  margin-top: 19px;
+  z-index: 777;
+  color: #00aeef;
+}
+
+.texto-icon {
+  padding-top: -30px;
+  z-index: 888;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.teste {
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilo.css.map */
